@@ -31,15 +31,16 @@ The data is provided in the CSV file.
 ## Conclusions
 - 5 Variables which are most important in the model are:
 
-LotArea------------Lot size in square feet
-OverallQual--------Rates the overall material and finish of the house
-OverallCond--------Rates the overall condition of the house
-YearBuilt----------Original construction date
-BsmtFinSF1---------Type 1 finished square feet
+1.	1stFlrSF
+2.	2ndFlrSF
+3.	OverallQual
+4.	OverallCond
+5.	YearBuilt
+
 
 - The optimal value of alpha for ridge and lasso regression are given below.
-Ridge Alpha 1
-Lasso Alpha 10
+Ridge Alpha 20
+Lasso Alpha 0.001
 
 
 ## Technologies Used
